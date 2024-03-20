@@ -1,5 +1,30 @@
+body{
+    background-color:wheat
+}
+
 h1{
     text-align: center;
     color: blueviolet;
+    text-transform: uppercase;
+ }
+
+ /* selección mediante el nombre de la etiqueta */
+ /* p{
+    color: greenyellow;
+ } */
+
+ #parrafo1{
+    color:teal
+ }
+
+ #parrafo2{
+    color: black;
+ }
+
+ #parrafo3{
+    color: chocolate;
+ }
+
+ .transformar-texto-en-mayus{
     text-transform: uppercase;
  }
