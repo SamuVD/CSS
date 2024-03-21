@@ -76,6 +76,42 @@ p.tres {
     border-width: 25px 10px 4px 35px;
     /* 25px top, 10px right, 4px bottom and 35px left */
 }
+
+/* La propiedad border-width */
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+
+
+
 figure img{
     width: 270px;
     height: 180px;
@@ -115,6 +151,4 @@ figure img{
 #imagen-5 {
     background-color: chocolate;
     border: 22px inset skyblue;
-    
-    
 }
