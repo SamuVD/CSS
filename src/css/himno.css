@@ -1,14 +1,27 @@
-.color-Amarillo{
+body{
+    background-color: silver;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+/* img{
+    
+} */
+
+.color-otro{
+    color: blueviolet;
+    text-align: center;
+}
+.color-amarillo{
     color: yellow;
     text-align: center;
 }
-
-.color-Azul{
+.color-azul{
     color: blue;
     text-align: center;
 }
-
-.color-Rojo{
+.color-rojo{
     color: red;
     text-align: center;
 }
