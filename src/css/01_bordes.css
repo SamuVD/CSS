@@ -117,38 +117,27 @@ figure img{
     height: 180px;
 }
 #imagen-1 {
-    background-color: aqua;
+    /* background-color: aqua; */
     border: 30px solid black;
-    border-top: 55px;
-    border-right: 40px;
-    border-bottom: 35px;
-    border-left: 70px;
+    border-radius: 20%;
 }
 #imagen-2 {
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
     border: 50px ridge pink;
-    border-top: 25px;
-    border-right: 29px;
-    border-bottom: 15px;
-    border-left: 44px;
+    border-right-style: initial;
 }
 #imagen-3 {
-    background-color: violet;
-    border: 80px groove grey;
-    border-top: 25px;
-    border-right: 29px;
-    border-bottom: 15px;
-    border-left: 44px;
+    /* background-color: violet; */
+    border: 65px groove grey;
+    border-bottom-color: blueviolet;
 }   
 #imagen-4 {
-    background-color: red;
+    /* background-color: red; */
     border: 72px double springgreen;
-    border-top: 28px;
-    border-right: 38px;
-    border-bottom: 29px;
-    border-left: 41px;
+    border-left-width: 100px;
 }
 #imagen-5 {
-    background-color: chocolate;
+    /* background-color: chocolate; */
     border: 22px inset skyblue;
+    border-top-width: 45px;
 }
