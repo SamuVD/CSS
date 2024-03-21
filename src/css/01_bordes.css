@@ -103,7 +103,7 @@ figure img{
     border-right: 29px;
     border-bottom: 15px;
     border-left: 44px;
-}
+}   
 #imagen-4 {
     background-color: red;
     border: 72px double springgreen;
@@ -115,8 +115,6 @@ figure img{
 #imagen-5 {
     background-color: chocolate;
     border: 22px inset skyblue;
-    border-top: 30px;
-    border-right: 15px;
-    border-bottom: 37px;
-    border-left: 47px;
+    
+    
 }
