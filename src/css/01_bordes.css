@@ -11,6 +11,7 @@
     border-left-width: 100px; */
     /* border-width: 50px 60px 80px 100px; */
     border-width: 20px 80px;
+    border-radius: 100px;
 }
 
 p.dotted {
@@ -55,4 +56,67 @@ p.hidden {
 
 p.mix {
     border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+figure img{
+    width: 270px;
+    height: 180px;
+}
+#imagen-1 {
+    background-color: aqua;
+    border: 30px solid black;
+    border-top: 55px;
+    border-right: 40px;
+    border-bottom: 35px;
+    border-left: 70px;
+}
+#imagen-2 {
+    background-color: goldenrod;
+    border: 50px ridge pink;
+    border-top: 25px;
+    border-right: 29px;
+    border-bottom: 15px;
+    border-left: 44px;
+}
+#imagen-3 {
+    background-color: violet;
+    border: 80px groove grey;
+    border-top: 25px;
+    border-right: 29px;
+    border-bottom: 15px;
+    border-left: 44px;
+}
+#imagen-4 {
+    background-color: red;
+    border: 72px double springgreen;
+    border-top: 28px;
+    border-right: 38px;
+    border-bottom: 29px;
+    border-left: 41px;
+}
+#imagen-5 {
+    background-color: chocolate;
+    border: 22px inset skyblue;
+    border-top: 30px;
+    border-right: 15px;
+    border-bottom: 37px;
+    border-left: 47px;
 }
