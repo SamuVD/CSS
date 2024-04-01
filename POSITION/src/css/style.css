@@ -1,0 +1,52 @@
+.contenedor {
+    border: 5px dotted blue;
+    height: 500px;
+}
+
+.position {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Deja el elemento estático, pero no es necesario usarlo*/
+.static {
+    background-color: lightcoral;
+}
+/*Toma como punto de referencia su origen*/
+.relative { 
+    background-color: lightgreen;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    z-index: -1; /*Sirve para indicar cual elemento quiero poner encima del otro*/
+    /* left: 50px; */
+    /* top: 0;
+    right: 0;
+    bottom: 0; */
+}
+/*Toma como punto de referencia toda la pantalla*/
+.absolute {
+    background-color: skyblue;
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
+/*Deja inmovible el elemento en la posición que lo ubique */
+.fixed {
+    background-color: lightseagreen;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    
+}
+/**/
+.sticky {
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    z-index: 50px;
+}
