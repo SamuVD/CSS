@@ -27,6 +27,16 @@ header {
     border-bottom: 3px solid var(--linea-header);
 }
 
+main div {
+    background-color: var(--titulos);
+    position: sticky;
+    top: 10%;
+}
+
+.etapas {
+    background-color: var(--fondo-section);
+}
+
 
 
 
