@@ -13,8 +13,12 @@ html {
 
 :root {
     --linea-header: blueviolet; 
-    --titulos: white;
-    --fondo-section: lightgrey;
+    --titulos: #fff;
+    --fondo-section: #f5f5f5;
+}
+
+body{
+    background-color: var(--fondo-section);
 }
 
 img {
@@ -24,41 +28,37 @@ img {
 header {
     display: flex;
     align-items: center;
-    border-bottom: 3px solid var(--linea-header);
+    border-bottom: 5px solid var(--linea-header);
 }
 
-main div {
+.etapas {
     background-color: var(--titulos);
     position: sticky;
     top: 10%;
+    padding left: 5px;
 }
 
 section {
     display: flex;
-    flex-flow: row wrap;
-}
-
-section div{
-    background-color: var(--fondo-section);
-    display: flex;
-    text-align: right;
-}
-
-.etapas {
-    background-color: var(--fondo-section);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
-/* h3 {
-    display: flex;
-    text-align: top;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 article {
     display: flex;
-    justify-content: left;
-    text-align: left;
-    align-items: center;
-} */
+    width: 40%;
+}
+
+article div {
+    display: flex;  
+    text-align: center;
+    flex-direction: column;
+}
+
+.wpp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
