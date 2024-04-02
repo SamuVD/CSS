@@ -18,7 +18,7 @@ html {
 }
 
 img {
-    width: 140px;
+    width: 120px;
 }
 
 header {
@@ -33,10 +33,32 @@ main div {
     top: 10%;
 }
 
-.etapas {
-    background-color: var(--fondo-section);
+section {
+    display: flex;
+    flex-flow: row wrap;
 }
 
+section div{
+    background-color: var(--fondo-section);
+    display: flex;
+    text-align: right;
+}
 
+.etapas {
+    background-color: var(--fondo-section);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
 
+/* h3 {
+    display: flex;
+    text-align: top;
+}
 
+article {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+} */
